@@ -2,408 +2,354 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohamed Elsayad | AI Engineer</title>
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Segoe+UI&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
-<body class="dark">
+<body>
 
-    <!-- Header -->
-    <header>
-        <nav class="container">
-            <a href="#" class="logo">Mohamed Elsayad</a>
-            <div class="menu-toggle" aria-label="Toggle Menu">☰</div>
-            <ul class="nav-menu">
-                <li><a href="#about">About</a></li>
-                <li><a href="#certifications">Certifications</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#services">What I Offer</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#" class="logo">M.Elsayad</a>
+        <div class="menu-toggle">☰</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <!-- Hero -->
+    <!-- Hero Section -->
     <section class="hero">
         <div class="container hero-content">
-            <div class="hero-text">
-                <h1><span>AI Engineer</span> <br> NLP & LLMs</h1>
+            <div class="hero-text reveal">
+                <span class="badge">AI Engineer</span>
+                <h1>Building <span class="gradient-text">Intelligent</span> Systems</h1>
                 <p>
-                    Specializing in Generative AI systems, with hands-on experience building <strong>RAG
-                        pipelines</strong>,
-                    <strong>intelligent agents</strong>, and scalable AI services using cloud platforms and
-                    high-performance APIs.
+                    I am Mohamed Elsayad, an AI Engineer specializing in <strong>AI</strong>, <strong>RAG
+                        Pipelines</strong>, and
+                    <strong>Agentic Systems</strong>. I bridge the gap between complex ML models and production-ready
+                    applications.
                 </p>
-
                 <div class="hero-btns">
-                    <a href="#projects" class="btn">Explore My Work</a>
-                    <a href="#contact" class="btn outline">Contact Me</a>
+                    <a href="#projects" class="btn btn-primary">
+                        View Projects <span style="font-size: 1.2em">→</span>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    <a href="https://drive.google.com/file/d/1BGvfAOEEPCKjQdB07YEgoYA9qgKMne0i/view?usp=drive_link"
+                        target="_blank" class="btn btn-outline">My Resume</a>
                 </div>
             </div>
 
-            <div class="hero-image">
-                <div class="blob-container">
-                    <!-- Using the extracted image name 'me.png' from images/ folder -->
+            <div class="hero-image reveal">
+                <div class="img-frame">
                     <img src="images/me.png" alt="Mohamed Elsayad">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About -->
+    <!-- About Section -->
     <section id="about" class="section">
         <div class="container">
-            <h2>About Me</h2>
-
-            <p>
-                I am a <strong>AI Engineer</strong> passionate about bringing AI to production.
-                My expertise includes <strong>RAG systems</strong>, <strong>intelligent agents</strong>, and building
-                scalable, high-performance APIs. I focus on <strong>production-ready</strong> design, <strong>cloud
-                    deployment</strong>, and
-                MLOps to deliver robust, real-world AI solutions.
-            </p>
-
-            <p><strong>Let’s connect and build something meaningful together.</strong></p>
-        </div>
-    </section>
-
-    <!-- Education -->
-    <section id="education" class="section">
-        <div class="container">
-            <h2>Education</h2>
-            <div class="education-card">
-                <p>
-                    <strong>B.Sc. in Computer Engineering</strong><br>
-                    Misr Engineering and Technology Academy<br>
-                    <span class="date">2020 – 2025</span>
+            <h2 class="section-title reveal">About Me</h2>
+            <div class="glass-card reveal">
+                <p style="margin-bottom: 1rem; color: var(--text-muted); font-size: 1.1rem; line-height: 1.8;">
+                    I am a passionate <strong>AI Engineer</strong> focused on transforming theoretical ML concepts into
+                    robust, production-grade solutions. With deep expertise in <strong>Large Language Models
+                        (LLMs)</strong> and <strong>RAG architectures</strong>, I help organizations unlock the power of
+                    their data.
                 </p>
-                <p>
-                    <strong>Graduation Project:</strong> <span class="project-name">Brainpulse (EEG Signal
-                        Classification)
+                <p style="color: var(--text-muted); font-size: 1.1rem; line-height: 1.8;">
+                    My technical foundation is built on <strong>Python</strong> and <strong>FastAPI</strong>, enabling
+                    me to design high-performance backends that serve complex AI workloads. I advocate for <strong>MLOps
+                        best practices</strong>, ensuring that deployments are scalable, observable, and reliable on
+                    cloud platforms like <strong>Azure</strong>.
                 </p>
             </div>
         </div>
     </section>
 
-    <!-- Certifications (Styled like Experience) -->
-    <section id="certifications" class="section">
+    <!-- Tech Stack / Skills -->
+    <section id="skills" class="section">
         <div class="container">
-            <h2>Certifications & Training</h2>
-            <div class="experience-container">
-
-                <div class="exp-card highlight">
-                    <div class="exp-header">
-                        <h3>Microsoft Azure Fundamentals</h3>
-                        <span class="exp-date">AZ-900</span>
-                    </div>
-                    <p class="company">Microsoft</p>
-                    <ul class="exp-details">
-                        <li>Fundamental knowledge of cloud services and how those services are provided with Microsoft
-                            Azure.</li>
-                    </ul>
-                </div>
-
-                <div class="exp-card">
-                    <div class="exp-header">
-                        <h3>Machine Learning Program (DEPI)</h3>
-                        <span class="exp-date">Completed</span>
-                    </div>
-                    <p class="company">Microsoft</p>
-                    <ul class="exp-details">
-                        <li>Comprehensive training in Machine Learning algorithms and data processing.</li>
-                    </ul>
-                </div>
-
-    </section>
-
-    <!-- Skills -->
-    <section id="skills" class="section alt">
-        <div class="container">
-            <h2>Skills</h2>
-            <div class="skills">
-                <!-- Programming -->
-                <span>Python</span>
-                <span>SQL</span>
-
-                <!-- AI/ML -->
-                <span>PyTorch</span>
-                <span>TensorFlow</span>
-                <span>Transformers</span>
-                <span>LangChain</span>
-                <span>LangGraph</span>
-                <span>CrewAI</span>
-                <span>OpenAI APIs</span>
-                <span>LLMs</span>
-                <span>RAG</span>
-                <span>Computer Vision</span>
+            <h2 class="section-title reveal" style="text-align: center;">Technical Skills</h2>
+            <div class="skills-grid reveal">
+                <!-- Core & AI -->
+                <div class="skill-chip">Python</div>
+                <div class="skill-chip">PyTorch</div>
+                <div class="skill-chip">TensorFlow</div>
+                <div class="skill-chip">LangChain</div>
+                <div class="skill-chip">LangGraph</div>
+                <div class="skill-chip">CrewAI</div>
+                <div class="skill-chip">HuggingFace</div>
+                <div class="skill-chip">OpenAI API</div>
 
                 <!-- Backend -->
-                <span>FastAPI</span>
-                <span>vLLM</span>
-                <span>Ollama</span>
-                <span>Celery</span>
-                <span>WebSockets</span>
+                <div class="skill-chip">FastAPI</div>
+                <div class="skill-chip">Docker</div>
+                <div class="skill-chip">Kubernetes</div>
+                <div class="skill-chip">Celery</div>
+                <div class="skill-chip">Redis</div>
+                <div class="skill-chip">PostgreSQL</div>
 
-                <!-- Database -->
-                <span>PostgreSQL</span>
-                <span>MongoDB</span>
-                <span>Qdrant</span>
-                <span>Redis</span>
-                <span>pgvector</span>
-
-                <!-- DevOps/MLOps -->
-                <span>Docker</span>
-                <span>NGINX</span>
-                <span>Git & GitHub</span>
-                <span>GitHub Actions</span>
-                <span>Prometheus</span>
-                <span>Grafana</span>
-                <span>Microsoft Azure</span>
+                <!-- Vector DB & OPS -->
+                <div class="skill-chip">Qdrant</div>
+                <div class="skill-chip">pgvector</div>
+                <div class="skill-chip">Prometheus</div>
+                <div class="skill-chip">Grafana</div>
+                <div class="skill-chip">Azure</div>
+                <div class="skill-chip">CI/CD</div>
             </div>
         </div>
     </section>
 
-    <!-- Projects -->
+    <!-- Projects Section -->
     <section id="projects" class="section">
         <div class="container">
-            <h2>Featured Projects</h2>
+            <h2 class="section-title reveal">Featured Work</h2>
             <div class="projects-grid">
 
-                <!-- CHAT-PLUS -->
-                <div class="project-card">
-                    <div class="project-img">
+                <!-- Project 1 -->
+                <article class="project-card reveal">
+                    <div class="project-img-wrapper">
                         <img src="images/chatplus.png" alt="CHAT-PLUS">
-                        <div class="project-overlay">
-                            <a href="https://github.com/mohamedelsayadd/CHAT-PLUS" target="_blank" class="view-btn">View
-                                Code</a>
-                        </div>
                     </div>
-                    <div class="project-info">
+                    <div class="project-content">
                         <h3>CHAT-PLUS</h3>
-                        <p>
-                            Enterprise-Grade Generative AI Service Hub. Supports multi-backend LLM inference (vLLM,
-                            Ollama, HuggingFace),
-                            WS/SSE for real-time chat, and robust security with RBAC & JWT.
-                        </p>
-                        <div class="project-tags">
-                            <span>FastAPI</span>
-                            <span>vLLM</span>
-                            <span>Redis</span>
-                            <span>Qdrant</span>
-                            <span>Docker</span>
-                            <span>WebSockets</span>
+                        <p>Enterprise-Grade GenAI Service Hub featuring multi-backend LLM inference (vLLM, Ollama),
+                            Real-time WebSocket chat, and RBAC security.</p>
+                        <div class="tags">
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">vLLM</span>
+                            <span class="tag">WebSockets</span>
                         </div>
+                        <a href="https://github.com/mohamedelsayadd/CHAT-PLUS" target="_blank" class="view-link">View
+                            Code →</a>
                     </div>
-                </div>
+                </article>
 
-                <!-- Evolved-RAG -->
-                <div class="project-card">
-                    <div class="project-img">
+                <!-- Project 2 -->
+                <article class="project-card reveal">
+                    <div class="project-img-wrapper">
                         <!-- Using evolvedrag.png -->
                         <img src="images/evolvedrag.png" alt="Evolved-RAG">
-                        <div class="project-overlay">
-                            <a href="https://github.com/mohamedelsayadd/EVOLVED-RAG" target="_blank"
-                                class="view-btn">View Code</a>
-                        </div>
                     </div>
-                    <div class="project-info">
+                    <div class="project-content">
                         <h3>Evolved-RAG</h3>
-                        <p>
-                            Scalable RAG Platform leveraging local and cloud LLMs. Features multi-provider support
-                            (OpenAI, Gemini),
-                            vector search with Qdrant, and production monitoring via Prometheus/Grafana.
-                        </p>
-                        <div class="project-tags">
-                            <span>LangChain</span>
-                            <span>FastAPI</span>
-                            <span>Qdrant</span>
-                            <span>Prometheus</span>
-                            <span>Grafana</span>
+                        <p>Scalable RAG Platform with LangChain & Qdrant. Supports hybrid search, multi-provider LLMs,
+                            and full observability setup.</p>
+                        <div class="tags">
+                            <span class="tag">RAG</span>
+                            <span class="tag">Qdrant</span>
+                            <span class="tag">LangChain</span>
                         </div>
+                        <a href="https://github.com/mohamedelsayadd/EVOLVED-RAG" target="_blank" class="view-link">View
+                            Code →</a>
                     </div>
-                </div>
+                </article>
 
-                <!-- ArNews -->
-                <div class="project-card">
-                    <div class="project-img">
-                        <img src="images/arnews.png" alt="ArNews Fine-Tuning">
-                        <div class="project-overlay">
-                            <a href="https://github.com/mohamedelsayadd/ArNews-FineTune" target="_blank"
-                                class="view-btn">View Code</a>
-                        </div>
+                <!-- Project 3 -->
+                <article class="project-card reveal">
+                    <div class="project-img-wrapper">
+                        <!-- Using arnews.png -->
+                        <img src="images/arnews.png" alt="ArNews">
                     </div>
-                    <div class="project-info">
-                        <h3>ArNews (Fine-Tuning)</h3>
-                        <p>
-                            Fine-tuning Qwen-1.5B using LoRA for Arabic structured data extraction.
-                            Includes synthetic dataset generation and experiment tracking with W&B.
-                        </p>
-                        <div class="project-tags">
-                            <span>Qwen-1.5B</span>
-                            <span>LoRA</span>
-                            <span>LLaMA-Factory</span>
-                            <span>W&B</span>
-                            <span>NLP</span>
+                    <div class="project-content">
+                        <h3>ArNews Fine-Tuning</h3>
+                        <p>Fine-tuning Qwen-1.5B on Arabic datasets using LoRA. Includes synthetic data generation and
+                            W&B experiment tracking.</p>
+                        <div class="tags">
+                            <span class="tag">LLM Fine-tuning</span>
+                            <span class="tag">LoRA</span>
+                            <span class="tag">NLP</span>
                         </div>
+                        <a href="https://github.com/mohamedelsayadd/ArNews-FineTune" target="_blank"
+                            class="view-link">View Code →</a>
                     </div>
-                </div>
+                </article>
 
-                <!-- Brainpulse -->
-                <div class="project-card">
-                    <div class="project-img">
-                        <!-- Using brain_pulse.png as listed in file list -->
+                <!-- Project 4 (Brainpulse) -->
+                <article class="project-card reveal">
+                    <div class="project-img-wrapper">
                         <img src="images/brain_pulse.png" alt="Brainpulse">
-                        <div class="project-overlay">
-                            <a href="https://github.com/mohamedelsayadd/BrainPulse" target="_blank"
-                                class="view-btn">View Code</a>
-                        </div>
                     </div>
-                    <div class="project-info">
+                    <div class="project-content">
                         <h3>Brainpulse</h3>
-                        <p>
-                            Graduation Project: EEG signal classification using PyTorch deep learning models.
-                            Achieved 91% validation accuracy for clinical diagnostics support.
-                        </p>
-                        <div class="project-tags">
-                            <span>PyTorch</span>
-                            <span>Deep Learning</span>
-                            <span>EEG Analysis</span>
-                            <span>Python</span>
+                        <p>EEG signal classification system using Deep Learning (PyTorch). Achieved 91% accuracy in
+                            clinical diagnostics utility.</p>
+                        <div class="tags">
+                            <span class="tag">PyTorch</span>
+                            <span class="tag">Healthcare AI</span>
+                            <span class="tag">Deep Learning</span>
                         </div>
+                        <a href="https://github.com/mohamedelsayadd/BrainPulse" target="_blank" class="view-link">View
+                            Code →</a>
                     </div>
-                </div>
+                </article>
 
-                <!-- Customer Sentiment Analysis -->
-                <div class="project-card">
-                    <div class="project-img">
-                        <img src="images/sentiment_analysis.png" alt="Customer Sentiment Analysis">
-                        <div class="project-overlay">
-                            <a href="https://github.com/mohamedelsayadd/Sentiment_Analysis_DEPI" target="_blank"
-                                class="view-btn">View Code</a>
-                        </div>
+                <!-- Project 5 (Sentiment) -->
+                <article class="project-card reveal">
+                    <div class="project-img-wrapper">
+                        <img src="images/sentiment_analysis.png" alt="Sentiment Analysis">
                     </div>
-                    <div class="project-info">
+                    <div class="project-content">
                         <h3>Customer Sentiment Analysis</h3>
-                        <p>
-                            A graduation project from the DEPI/Microsoft scholarship. Built an end-to-end sentiment
-                            analysis pipeline
-                            leveraging NLP techniques to extract actionable insights from customer feedback.
-                        </p>
-                        <div class="project-tags">
-                            <span>NLP</span>
-                            <span>Python</span>
-                            <span>Sentiment Analysis</span>
-                            <span>Data Analysis</span>
+                        <p>End-to-end sentiment pipeline analyzing customer feedback to derive actionable business
+                            insights using NLP.</p>
+                        <div class="tags">
+                            <span class="tag">NLP</span>
+                            <span class="tag">Analytics</span>
+                            <span class="tag">Python</span>
                         </div>
+                        <a href="https://github.com/mohamedelsayadd/Sentiment_Analysis_DEPI" target="_blank"
+                            class="view-link">View Code →</a>
                     </div>
-                </div>
+                </article>
+
             </div>
         </div>
     </section>
 
-    <section id="services" class="section alt">
+    <!-- Services -->
+    <section id="services" class="section">
         <div class="container">
-            <h2>What I Offer</h2>
-            <div class="services-grid">
+            <h2 class="section-title reveal">What I Deliver</h2>
+            <div class="services-grid reveal">
 
-                <div class="service-card">
-                    <div class="service-icon">1️⃣</div>
-                    <h3>End-to-End GenAI Solutions</h3>
-                    <p>Delivering complete Generative AI solutions, from concept to deployment, tailored to real-world
-                        applications.</p>
+                <div class="service-item">
+                    <span class="service-icon">⚡</span>
+                    <h3>End-to-End GenAI</h3>
+                    <p style="color:var(--text-muted);">From concept to cloud deployment, utilizing the latest in
+                        Generative AI to solve real business problems.</p>
                 </div>
 
-                <div class="service-card">
-                    <div class="service-icon">2️⃣</div>
-                    <h3>RAG Applications</h3>
-                    <p>Designing and implementing Retrieval-Augmented Generation systems for efficient and scalable
-                        knowledge access.</p>
+                <div class="service-item">
+                    <span class="service-icon">🔍</span>
+                    <h3>RAG Systems</h3>
+                    <p style="color:var(--text-muted);">Intelligent information retrieval systems connecting your
+                        proprietary data with powerful LLMs.</p>
                 </div>
 
-                <div class="service-card">
-                    <div class="service-icon">3️⃣</div>
-                    <h3>Agent Development</h3>
-                    <p>Building intelligent agents and autonomous workflows that can perform complex tasks seamlessly.
-                    </p>
+                <div class="service-item">
+                    <span class="service-icon">🤖</span>
+                    <h3>Autonomous Agents</h3>
+                    <p style="color:var(--text-muted);">Building smart agentic workflows (CrewAI, LangGraph) that plan
+                        and execute complex tasks.</p>
                 </div>
 
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Certs -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title reveal">Education & Certs</h2>
+            <div class="glass-card reveal">
+                <ul style="list-style: none; display: grid; gap: 1.5rem;">
+                    <li style="display: flex; gap: 1rem; align-items: start;">
+                        <span style="color: var(--accent); font-size: 1.2rem;">🎓</span>
+                        <div>
+                            <h4 style="color: white; font-size: 1.1rem;">B.Sc. Computer Engineering</h4>
+                            <p style="color: var(--text-muted);">Misr Engineering and Technology Academy (2020 - 2025)
+                            </p>
+                        </div>
+                    </li>
+                    <li style="display: flex; gap: 1rem; align-items: start;">
+                        <span style="color: var(--accent); font-size: 1.2rem;">🏅</span>
+                        <div>
+                            <h4 style="color: white; font-size: 1.1rem;">Microsoft Azure Fundamentals (AZ-900)</h4>
+                            <p style="color: var(--text-muted);">Certified Cloud Practitioner</p>
+                        </div>
+                    </li>
+                    <li style="display: flex; gap: 1rem; align-items: start;">
+                        <span style="color: var(--accent); font-size: 1.2rem;">📜</span>
+                        <div>
+                            <h4 style="color: white; font-size: 1.1rem;">Microsoft Machine Learning Program (DEPI)</h4>
+                            <p style="color: var(--text-muted);">Advanced ML & Data Science Track</p>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="section">
+    <section id="contact" class="section" style="padding-bottom: 5rem;">
         <div class="container">
+            <h2 class="section-title reveal">Let's Connect</h2>
+            <div class="contact-grid reveal">
 
-            <!-- Header -->
-            <div class="contact-header">
-                <h2>Contact Me</h2>
-                <p>I'm always open to discussing new AI projects, backend challenges, or potential collaborations.</p>
-            </div>
-
-            <!-- Contact Cards -->
-            <div class="contact-grid">
-
-                <a href="mailto:mohamedelsayad866@gmail.com" class="contact-card-prof">
-                    <div class="contact-icon-wrapper">📧</div>
-                    <div class="contact-info-text">
-                        <h3>Email</h3>
-                        <p style="font-size: 0.9rem;">mohamedelsayad866@gmail.com</p>
+                <a href="mailto:mohamedelsayad866@gmail.com" class="contact-box">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <div class="contact-details">
+                        <h4>Email</h4>
+                        <p>mohamedelsayad866@gmail.com</p>
                     </div>
-                    <span class="contact-action">Send Email →</span>
                 </a>
 
-                <a href="https://www.linkedin.com/in/mohamed-elsayad-800a66291/" target="_blank"
-                    class="contact-card-prof">
-                    <div class="contact-icon-wrapper">💼</div>
-                    <div class="contact-info-text">
-                        <h3>LinkedIn</h3>
-                        <p>Let’s connect professionally</p>
+                <a href="https://www.linkedin.com/in/mohamed-elsayad-800a66291/" target="_blank" class="contact-box">
+                    <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+                    <div class="contact-details">
+                        <h4>LinkedIn</h4>
+                        <p>View Profile</p>
                     </div>
-                    <span class="contact-action">View Profile →</span>
                 </a>
 
-                <a href="https://github.com/mohamedelsayadd" target="_blank" class="contact-card-prof">
-                    <div class="contact-icon-wrapper">💻</div>
-                    <div class="contact-info-text">
-                        <h3>GitHub</h3>
-                        <p>Check out my code</p>
+                <a href="https://github.com/mohamedelsayadd" target="_blank" class="contact-box">
+                    <div class="contact-icon"><i class="fab fa-github"></i></div>
+                    <div class="contact-details">
+                        <h4>GitHub</h4>
+                        <p>Explore Repos</p>
                     </div>
-                    <span class="contact-action">View Repos →</span>
+                </a>
+
+                <a href="https://www.kaggle.com/mohamedalaaelsayad" target="_blank" class="contact-box">
+                    <div class="contact-icon"><i class="fab fa-kaggle"></i></div>
+                    <div class="contact-details">
+                        <h4>Kaggle</h4>
+                        <p>View Notebooks</p>
+                    </div>
                 </a>
 
             </div>
         </div>
     </section>
 
-
-    <!-- Footer -->
     <footer>
-        <p>© 2026 Mohamed Elsayad | AI Engineer</p>
+        <div class="container">
+            <p>&copy; 2026 Mohamed Elsayad. Built with &lt;3 and CSS3.</p>
+        </div>
     </footer>
 
+    <!-- Simple Scroll Reveal Script -->
     <script>
+        // Toggle Mobile Menu
         const menuToggle = document.querySelector('.menu-toggle');
-        const navbarText = document.querySelector('nav ul');
+        const navLinks = document.querySelector('.nav-links');
 
         menuToggle.addEventListener('click', () => {
-            navbarText.style.display = (navbarText.style.display === 'flex') ? 'none' : 'flex';
-            // Simple toggle for mobile view logic
-            // In css we have logic for .active class if we want to use that instead
-            document.querySelector('nav').classList.toggle('active');
-
-            // Fix for inline style if toggling class
-            if (document.querySelector('nav').classList.contains('active')) {
-                navbarText.style.display = 'flex';
-            } else {
-                navbarText.style.display = ''; // revert to css control
-            }
+            navLinks.classList.toggle('active');
         });
+
+        // Scroll Reveal
+        const revealElements = document.querySelectorAll('.reveal');
+
+        const scrollObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        revealElements.forEach(el => scrollObserver.observe(el));
     </script>
 </body>
 
