@@ -278,7 +278,7 @@ a {
     border: 1px solid var(--border-light);
     padding: 10px;
     backdrop-filter: blur(4px);
-    transform: rotate(3deg);
+    transform: rotate(0deg);
     transition: transform 0.5s ease;
 }
 
